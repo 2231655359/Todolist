@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+  .thin-scroll {
+    scrollbar-width: thin;
+  }
+}
+
+@layer components {
+  .info-badge {
+    @apply rounded-full text-white py-2 px-6 sm:min-w-[120px] sm:px-0 capitalize text-center text-[14px];
+  }
+}
